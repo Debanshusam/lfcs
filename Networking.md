@@ -32,7 +32,7 @@
 
   * `hostname` show current hostname
   * Alternative: `hostnamectl set-hostname your-new-hostname` set hostname equal to your-new-hostname
-  * Reboot is required to see new hostname applied
+  * Logout/login again is required to see new hostname applied
 
 * In `/etc/hosts` is configured a name resolution that take precedence of DNS 
 
