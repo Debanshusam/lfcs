@@ -155,7 +155,7 @@ References:
 
   * `root: user@test.com` 
 
-    Whit this syntax will be added a classical email address
+    With this syntax will be added a classical email address
 
 * At the end of changes to `/etc/aliases` execute `newaliases` to apply changes
 
