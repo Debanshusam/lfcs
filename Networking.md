@@ -113,8 +113,8 @@ Firewalld
   * services -> service that are allowed to use interface
   * ports -> ports that are allowed to use interface
 * `firewall-cmd --get-services` shows the list of default services
-  * The services are configured in `/urs/lib/firewalld/services`
-  * `/urs/lib/firewalld/services` contains xml file with service configuration
+  * The services are configured in `/usr/lib/firewalld/services`
+  * `/usr/lib/firewalld/services` contains xml file with service configuration
 
 * `firewall-cmd --add-service service` add service to current configuration
   * **NOTE**: it isn't a permanent configuration
