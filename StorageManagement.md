@@ -24,7 +24,7 @@
 
 ## Manage and configure LVM storage
 
-* Before create a Logical Volume must be created in sequence a physical volume and after a volume group
+* Creating a Logical Volume follows this sequence : Physical Volume-->Volume Group -->Logical Volume.
 * A physical volume is a partition that can be part of volume group. Inside a volume group can be created logical volume
 * The advance of logical volume is that their dimension can be managed easly
 * If more space is need a volume group can be extended as well
