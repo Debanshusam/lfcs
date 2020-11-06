@@ -36,6 +36,10 @@ Physical Volume
 * `pvcreate /dev/sdb1`
 
   To create a physical volume with partition sbd1
+ 
+ * pvremove /dev/sdb1
+   
+   To remove a physical volume with partition sdb1
 
 * `pvs` lists available physical volumes
 
