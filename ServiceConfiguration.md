@@ -202,6 +202,14 @@ Authentication with public/private keys
   * `id_rsa` private key
   * `id_rsa.pub` public key
 * `ssh-copy-id 123.123.123.123` it is used to copy current user public key to home directory of same user on ssh server. The key will be stored in the user's home inside file `.ssh/authorized_keys`
+   ssh-copy-id -i id_rsa.pub <destination machine>
+
+*Generating private public key pair:
+
+ id_rsa --Private keys ,could be protected with pass phrase
+
+ id_rsa.pub -- Public key , That has to be distributed
+
 
 * After that public key is copied on the server, user can use ssh client to login into the server without providing password
 
