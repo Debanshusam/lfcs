@@ -205,7 +205,7 @@ References:
 
     * :%s/one/ONE/g - replace all occurrences of one with ONE
 
-      :%s/one/ONE - replace first occurrences of one with INE
+      :%s/one/ONE - replace first occurrences of one with ONE
 
   * Cut and paste:
 
