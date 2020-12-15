@@ -110,6 +110,10 @@ References:
 * f`ind . -samefile file`
 
   * Find all files that have same i-node of file
+ 
+* find . -type f -links +1
+  
+  * Displays all the file with hard links in a directory
 
 * f`ind . \! -user owner` 
 
