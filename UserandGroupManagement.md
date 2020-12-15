@@ -152,6 +152,9 @@ groupmod
   * -G list of secondary groups
   * `-a` append. <u>**NOTE**: If not specified new group list will override current value</u>
 
+* To remove a user from a group, use the gpasswd command with the -d option as follows.
+
+  * gpasswd -d username groupname
 
 
 ## Manage system-wide environment profiles
