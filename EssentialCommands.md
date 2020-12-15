@@ -115,6 +115,14 @@ References:
   
   * Displays all the file with hard links in a directory
 
+* find . -type l
+  
+  *Displays all the soft links in the directory
+
+* find . -ilname TargetName
+  
+  * Displays all the soft links in a directory pointing to "TargetName" searched case-insensitively.
+  
 * f`ind . \! -user owner` 
 
   * It will show all files that aren't owned by user owner. `!` means negation, but must be escaped by \ to  not be interpreted by bash shell
