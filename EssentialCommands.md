@@ -492,6 +492,10 @@ References:
     `tar X<(ls | file -f - | grep -i MPEG | cut -d: -f 1) -c -f file.tar *`
 
     Exclude file MPEG from content of file.tar
+  
+  * tar -cvf prep1.tar --remove-files *
+  
+    archives the contents of the directory into a tar ball and deletes the contents of the directory.
 
 
 
